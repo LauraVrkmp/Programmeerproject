@@ -1,5 +1,4 @@
-Process book programmeerproject <br/>
-Laura Veerkamp - 10361561
+# Process book programming project
 
-# day 1
+## day 1
 
