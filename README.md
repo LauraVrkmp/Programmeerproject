@@ -1,1 +1,2 @@
-# Programmeerproject
+# Programming project proposal
+
