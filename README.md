@@ -2,7 +2,7 @@
 
 I am aiming for a visualisation on recreational drug use in European countries from 2007 - 2014, addressing on the one hand drug use prevalence, treatment demand, seizures and purity/potency of products, on the other hand drug related death and disease, health and social responses in the form of needle and syringe programmes (NSPs), and substitution treatment (OST).
 
-### Features, interactivity, decomposition
+### Decomposition
 
 The different data sets form a clear decomposed basis. By means of interactivity the data sets should complement each other. Intended features are a time slide, highlighting countries, a menu for which data set to look into, zooming in on countries for more detailed data. Perhaps arcs/chord diagram for drug origins.
 
@@ -10,6 +10,12 @@ Trend vs. time slide. <br>
 Country vs. total of Europe. <br>
 Disease vs. NSP <br>
 (OST)
+
+## Features, interactivity
+
+The map of Europe is shown with, when no countries, years or drugs are selected no data is shown. Options for data selection include cannabis, cocaine, amphetamines, ecstacy OR impact on and response of society. For the drugs a specific comparisson between countries is provided for each year, with clear indications where data is missing. Trends can be shown for countries on themselves.
+
+Interactivity is provided by a clickable topic for specific data set, a time slide (2007 - 2014), showing Aids and/or HIV counts in the disease graph.
 
 ### Limitations and troubleshooting
 
@@ -19,13 +25,22 @@ Disease vs. NSP <br>
 - Treatmant demand in relation to population size/amount of frequent users?
 - The non-drug specific data (death and disease, health and social responses) should be incorporated with some relation to the drug specific data, in order to conver a specific message.
 
+### MVP
+
+The visualisation needs to clearly set out development over the years and comparisons between countries. The initial focus lies on the drug specific data (prevalence, treatment demand, seizures and purity/potency for cannabis, cocaine, amphatemines and ecstacy).
+
+Graphs should adjust to clicked topid and year on slide.
+
 ### Sketching
+
+Data selection
+
+![dataselection](/doc/dataselection.jpg)
 
 ![drugspecifics](/doc/sketch_drugspecifics.jpg)
 
-### MVP
+![nondrugspecifics](/doc/sketch_nondrugspecifics.jpg)
 
-The visualisation needs to clearly set out development over the years and comparisons between countries
 
 ### Data sources
 - [CBS report on XTC, 2015](https://www.cbs.nl/nl-nl/nieuws/2015/29/kwart-miljoen-nederlanders-gebruikt-ecstasy)
