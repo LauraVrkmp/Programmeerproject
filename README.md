@@ -1,19 +1,27 @@
 ## Programming project proposal: recreational drug use in Europe
 
-I am aiming for a visualisation on recreational drug use in European countries over the years, addressing it's prevalence, price and purity, relation to overdoses and infectious disease and demand of treatment. Optional: drugs origins.
+I am aiming for a visualisation on recreational drug use in European countries from 2007 - 2014, addressing on the one hand drug use prevalence, treatment demand, seizures and purity/potency of products, on the other hand drug related death and disease, health and social responses in the form of needle and syringe programmes (NSPs), and substitution treatment (OST).
 
 ### Features, interactivity, decomposition
 
 The different data sets form a clear decomposed basis. By means of interactivity the data sets should complement each other. Intended features are a time slide, highlighting countries, a menu for which data set to look into, zooming in on countries for more detailed data. Perhaps arcs/chord diagram for drug origins.
 
+Trend vs. time slide. <br>
+Country vs. total of Europe. <br>
+Disease vs. NSP <br>
+(OST)
+
 ### Limitations and troubleshooting
 
 - The amount of available data differs strongly over the years and in between countries. In order for patterns to emerge clearly still, a clever way of visualisation has to be found.
+- The way data has been obtained for each and every country differs. The provided data hopefully shows interesting trends supported by their reasonable comparability.
 - Units of measurement for different forms of drugs need to be incorporated without distracting from the message
+- Treatmant demand in relation to population size/amount of frequent users?
+- The non-drug specific data (death and disease, health and social responses) should be incorporated with some relation to the drug specific data, in order to conver a specific message.
 
 ### Sketching
 
-Work in progress
+![drugspecifics](/doc/sketch_drugspecifics.jpg)
 
 ### MVP
 
@@ -25,7 +33,7 @@ The visualisation needs to clearly set out development over the years and compar
   - ['Nationale drug monitor' 2016)](https://www.trimbos.nl/kerncijfers/nationale-drug-monitor)
 - [EMCDDA statistical bulletin 2016](http://www.emcdda.europa.eu/data/stats2016)
   - [Annex methods and definitions 2015](http://www.emcdda.europa.eu/data/stats2015/methods)
-
+    - Quote: 'In particular, information on patterns of drug use, such as primary drug and injecting behaviour, complement estimates of the prevalence of problem drug use (PDU), drug-related infectious diseases (DRID) and drug-related deaths (DRD).'
 
 ### Similar visualisations (features and implementation)
 - [D3 source](d3js.org)
