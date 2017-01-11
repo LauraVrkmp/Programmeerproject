@@ -4,14 +4,14 @@ I am aiming for a visualisation on recreational drug use in European countries f
 
 ### Decomposition
 
-The different data sets form a clear decomposed basis. By means of interactivity the data sets should complement each other. Intended features are a time slide, highlighting countries, a menu for which data set to look into, zooming in on countries for more detailed data. Perhaps arcs/chord diagram for drug origins.
+The different data sets form a clear decomposed basis. By means of interactivity the data sets should complement each other. Intended features are a time slide, highlighting countries, a menu for which data set to look into. Perhaps arcs/chord diagram for drug origins.
 
 Trend vs. time slide. <br>
 Country vs. total of Europe. <br>
 Disease vs. NSP <br>
 (OST)
 
-## Features, interactivity
+### Features, interactivity
 
 The map of Europe is shown with, when no countries, years or drugs are selected no data is shown. Options for data selection include cannabis, cocaine, amphetamines, ecstacy OR impact on and response of society. For the drugs a specific comparisson between countries is provided for each year, with clear indications where data is missing. Trends can be shown for countries on themselves.
 
@@ -23,7 +23,7 @@ Interactivity is provided by a clickable topic for specific data set, a time sli
 - The way data has been obtained for each and every country differs. The provided data hopefully shows interesting trends supported by their reasonable comparability.
 - Units of measurement for different forms of drugs need to be incorporated without distracting from the message
 - Treatmant demand in relation to population size/amount of frequent users?
-- The non-drug specific data (death and disease, health and social responses) should be incorporated with some relation to the drug specific data, in order to conver a specific message.
+- The non-drug specific data (death and disease, health and social responses) should be incorporated with some relation to the drug specific data, in order to confer a specific message.
 
 ### MVP
 
@@ -33,7 +33,7 @@ Graphs should adjust to clicked topid and year on slide.
 
 ### Sketching
 
-Data selection
+Data selection (more detailed and up-to-date in data_analysis.xlsx)
 
 ![dataselection](/doc/dataselection.jpg)
 
