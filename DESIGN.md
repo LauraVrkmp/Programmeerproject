@@ -1,4 +1,5 @@
-Data source: [Stats EMCDDA](http://www.emcdda.europa.eu/data/stats2016)
+Data source: [Stats EMCDDA](http://www.emcdda.europa.eu/data/stats2016)<br>
+population size?
 
 ### Data structure
 - Prevalance
@@ -47,12 +48,17 @@ Data source: [Stats EMCDDA](http://www.emcdda.europa.eu/data/stats2016)
     - country
       - year
         - clients n
+- population size
+  - country
+    - year
+      - amount n
         
  ### Visualisation design
  
  Maps of Europe
   - with no drug selected
     - time slide
+      - map coloring by selecting overdose deaths / infectious disease / HSR (corrected for population size)
       - overdose deaths
         - total overdose deaths: n, mean age: n
       - infectious disease notifications
@@ -61,10 +67,11 @@ Data source: [Stats EMCDDA](http://www.emcdda.europa.eu/data/stats2016)
         - OST clients: n, NSP clients: n
     - topics clickable for trend (with opiates, without, unknown specified)
       - current year in different color in bar chart
-    - amount clickable for comparisson to other countries (with opiates, without, unknown specified)
+    - amount clickable for comparisson to other countries (with opiates, without, unknown specified, corrected for population size)
       - current country in different color in bar chart
   - with drug selected
     - time slide
+      - map coloring by selecting prevalence / treatment demand (corrected for population size) / seizures of drugs / purity/potency
       - prevalence
         - bar chart with lifetime, overlap year, overlap month for all and young
           - total percentage
@@ -76,7 +83,7 @@ Data source: [Stats EMCDDA](http://www.emcdda.europa.eu/data/stats2016)
         - for cocaine and amphetamines: purity: %
         - for mdma: potency: mg
         - for herbal cannabis: % THC
-    - topics clickable for trend (prevalence: select lifetime, year or month, both all and young)
+    - topics clickable for trend (prevalence: select lifetime, year or month, both all and young, treatment demand corrected for population size)
       - current year in different color in bar chart
-    - amount clickable for comparisson to other countries (prevalence: select lifetime, year or month, both all and young)
+    - amount clickable for comparisson to other countries (prevalence: select lifetime, year or month, both all and young, treatment demand corrected for population size
       - current country in different color in bar chart
