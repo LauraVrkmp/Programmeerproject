@@ -8,7 +8,7 @@ population size?
       - all / young
         - country
           - year
-            - total percentage
+            - total percentage (one decimal)
 - Treatment demand
   - cannabis / cocaine / amphetamines / ecstasy (MDMA)
     - country
@@ -20,24 +20,15 @@ population size?
       - year
         - total seizures n
 - Purity and potency
-  - cocaine / amphetamines
+  - cannabis / cocaine / amphetamines / ecstasy
     - country
       - year
-        - percentage
-  - herbal cannabis
-    - country
-      - year
-        - mean THC percentage
-  - ecstasy
-    - country
-      - year
-        - mean milligrams
+        - percentage (one to two decimals according to data)
 - Overdose deaths
-  - with opiates / without opiates / unknown
+  - total / mean age
     - country
       - year
-        - total n
-        - mean age
+        - amount for total, one decimal value for mean age
 - Infectious diseases
   - HIV / AIDS
     - country
@@ -51,39 +42,39 @@ population size?
 - population size
   - country
     - year
-      - amount n
+      - size n
         
  ### Visualisation design
  
  Maps of Europe
   - with no drug selected
     - time slide
-      - map coloring by selecting overdose deaths / infectious disease / HSR (corrected for population size)
+      - map coloring by selecting overdose deaths / infectious disease / HSR
       - overdose deaths
-        - total overdose deaths: n, mean age: n
-      - infectious disease notifications
+        - total overdose deaths: n (corrected for population size), mean age: n
+      - infectious disease notifications (corrected for population size)
         - HIV: n, AIDS: n
-      - health and social responses
+      - health and social responses (corrected for population size)
         - OST clients: n, NSP clients: n
-    - topics clickable for trend (with opiates, without, unknown specified)
+    - topics clickable for trend
       - current year in different color in bar chart
-    - amount clickable for comparisson to other countries (with opiates, without, unknown specified, corrected for population size)
+    - amount clickable for comparisson to other countries (thus corrected for population size)
       - current country in different color in bar chart
   - with drug selected
     - time slide
-      - map coloring by selecting prevalence / treatment demand (corrected for population size) / seizures of drugs / purity/potency
+      - map coloring by selecting prevalence / treatment demand / seizures of drugs / purity/potency
       - prevalence
         - bar chart with lifetime, overlap year, overlap month for all and young
           - total percentage
-      - treatment demand
+      - treatment demand (corrected for population size)
         - clients n
-      - seizures of drugs
+      - seizures of drugs (corrected for population size)
         - total seizures n
       - purity / potency
         - for cocaine and amphetamines: purity: %
         - for mdma: potency: mg
         - for herbal cannabis: % THC
-    - topics clickable for trend (prevalence: select lifetime, year or month, both all and young, treatment demand corrected for population size)
+    - topics clickable for trend (prevalence: select lifetime, year or month, both all and young)
       - current year in different color in bar chart
-    - amount clickable for comparisson to other countries (prevalence: select lifetime, year or month, both all and young, treatment demand corrected for population size
+    - amount clickable for comparisson to other countries (prevalence: select all or young)
       - current country in different color in bar chart
