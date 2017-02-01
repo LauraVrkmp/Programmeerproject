@@ -1,8 +1,93 @@
 <!-- 
 Programmeerproject
 Laura Veerkamp
-10361561
-<title> -->
+10361561 -->
 
-<body>
-</body>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Recreational drug use</title>
+		<script src="javascript/d3.v3.min.js"></script>
+		<script src="javascript/d3.tip.v0.6.3.js"></script>
+		<script src="javascript/queue.v1.min.js"></script>
+		<script src="javascript/topojson.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	</head>
+	<body>
+		<script src="javascript/d3.slider.js"></script>
+		<script src="javascript/responses.js"></script>
+		<div class="total">
+			<div class="top">
+				<div class="menu">
+					<div id="header">Recreational drug use in Europe</div>
+					<div id="slider"></div>
+					<script>
+					var year = 2007;
+					d3.select("#slider").call(d3.slider().on("slide", function(evt, value){
+					year = value;
+					animateMap(year);
+					}));
+					</script>
+					<div class="buttons">
+						<button id="button1" onclick="buttonchange(this.id)">Cannabis</button>
+						<button id="button2" onclick="buttonchange(this.id)">Cocaine</button><br>
+						<button id="button3" onclick="buttonchange(this.id)">Amphetamine</button>
+						<button id="button4" onclick="buttonchange(this.id)">Ecstasy</button>
+					</div>
+					<div class="dropdown">
+						<select id="nodrugselected" onchange="dropchange(this.value)">
+							<option value="deaths">Drug related deaths</option>
+							<option value="disease">Drug related disease</option>
+							<option value="HSR">Health and social responses</option>
+						</select>
+						<select id="drugselected" onchange="dropchange(this.value)">
+							<option value="prevalence">Prevalence</option>
+							<option value="treatment">Treatment demand</option>
+							<option value="seizures">Drug seizures</option>
+							<option value="purity">Purity/potency</option>
+						</select>
+					</div>
+					<div class="checkbox">
+						<div class="HSR">
+							<input type="radio" class="option1" id="1/2 HSR" onclick="recheck(this.id)">Opioid substitution programmes
+							<input type="radio" class="option2" id="2/2 HSR" onclick="recheck(this.id)">Needle and syringe programmes
+						</div>
+						<div class="deaths">				
+							<input type="radio" class="option1" id="1/2 deaths" onclick="recheck(this.id)">Total
+							<input type="radio" class="option2" id="2/2 deaths" onclick="recheck(this.id)">Mean age
+						</div>
+						<div class="disease">
+							<input type="radio" class="option1" id="1/2 disease" onclick="recheck(this.id)">AIDS
+							<input type="radio" class="option2" id="2/2 disease" onclick="recheck(this.id)">HIV
+						</div>
+						<div class="prevalence">
+							<input type="radio" class="option1" id="1/3 prevalence" onclick="recheck(this.id)">Ever
+							<input type="radio" class="option2" id="2/3 prevalence" onclick="recheck(this.id)">Last year
+							<input type="radio" class="option3" id="3/3 prevalence" onclick="recheck(this.id)">Last month
+						</div>
+					</div>
+					<script>var total = document.getElementsByClassName("option1");
+					for (var i = 0; i < total.length; i++){total[i].checked = true;};
+					</script>
+				</div>
+				<div class="info">
+					<div id="general">In the following figures data regarding seven drug related topics are represented. Select and deselect a drug for (non-)drug specific topics.
+					<br><br>An overview is given by the map of Europe. A trend for the selected country is depicted in the line graph. Comparisson between countries is made possible in the bar chart.
+					<br><br>Programming project by Laura Veerkamp, January 2017</div>
+					<div id="specific">The data of drug related deaths concern numbers on deaths directly caused by illegal drugs and on mortality among drug users.
+					<br><br>The radio buttons enable toggling between data on total death numbers and on the average age of mortality.</div>
+				</div>
+			</div>
+			<div class="map" style="height: 600px;">
+				<div id="europe"></div>
+				<div id="legend"></div>
+			</div>
+			<svg class="linegraph" style="width: 800px; height: 300px"></svg>
+			<svg class="barchart" style="width: 800px; height: 300px"></svg>
+			<script src="javascript/bargraph.js"></script>
+			<script src="javascript/linegraph.js"></script>
+			<script src="javascript/europe.js"></script>
+			<script src="javascript/legend.js"></script>
+		</div>
+	</body>
+</html>

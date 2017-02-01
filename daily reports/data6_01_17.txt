@@ -1,0 +1,6 @@
+Laila: buttons en slider ingevoegd. Interactiviteit klopt, behalve dat er twee handles op de slider staan. Wellicht kan ik er één onzichtbaar maken door te hiden in de css.
+Dirk: Buttons en dropdown ingevoegd en de kaart ingekleurd. Ik heb nu dynamische dataverzamelingsfuncties.
+Sjoerd: map gemaakt, nu moeten de punten op de goede plek van de kaart Amsterdam.
+Lars: ook een map gemaakt, de punten staan op dit moment onder de map. Ik kan met de z-index proberen te tweaken.
+Laura: de datafile is nu compleet met populatiedata. Verder had ik problemen met m'n localhost, daarom is er verder niet veel gelukt gisteren. Ik ga nu de verschillende visualisatie-elementen los invoegen.
+Sanne was er niet ivm de stroomstoring.

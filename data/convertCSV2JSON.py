@@ -1,3 +1,6 @@
+# Data conversion: .csv to .json
+# Programming project by Laura Veerkamp
+
 import math
 import json
 import pandas as pd
@@ -13,7 +16,7 @@ drugs = ('cannabis', 'cocaine', 'amphetamines', 'ecstasy')
 deaths_topic = ('total', 'mean_age')
 disease = ('HIV', 'AIDS')
 response = ('OST', 'NSP')
-topic = ('prevalence', 'deaths', 'disease', 'treatment', 'seizure', 'purity', 'HSR', 'population')
+topic = ('prevalence', 'deaths', 'disease', 'treatment', 'seizures', 'purity', 'HSR', 'population')
 
 reader = pd.read_csv('data.csv', names = countries)
 points_dict = {}
