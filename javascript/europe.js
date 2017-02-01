@@ -300,7 +300,7 @@ function getColor(valueIn, valuesIn){
 function sequenceMap(skip){
 	var dataRange = getDataRange();
 	//update legend (skip gradient if topic wasn't changed)
-	rescale_legend(dataRange, color_select, skip);
+	rescale_legend(dataRange, skip);
 	//update bar graph
 	rescale_bar(dataRange[1]);
 	//update map
