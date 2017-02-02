@@ -49,7 +49,7 @@ In the current bar chart, it is sometimes not very clear for which country data 
 
 Correcting for population size is a possibility to be further looked into.
 
-Story telling wise, I did not manage to complement data of different topics as aimed for by this quote:
+Story telling wise, I did not manage to complement data of different topics as aimed for by this quote from the methods and definitions of the EMCDDA:
 
 > In particular, information on patterns of drug use, 
 	such as primary drug and injecting behavior, complement estimates of the 
