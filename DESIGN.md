@@ -56,15 +56,15 @@ Data source: [Stats EMCDDA](http://www.emcdda.europa.eu/data/stats2016)<br>
         - HIV: n, AIDS: n
       - health and social responses (corrected for population size)
         - OST clients: n, NSP clients: n
-    - topics clickable for trend
-      - current year in different color in bar chart
-    - amount clickable for comparisson to other countries (thus corrected for population size)
-      - current country in different color in bar chart
+    - topic selectable for comparisson to other countries in bar chart
+      - current country in different color
+    - country clickable for trend in line graph
+      - current year in different color
   - with drug selected
     - time slide
       - map coloring by selecting prevalence / treatment demand / seizures of drugs / purity/potency
       - prevalence
-        - bar chart with lifetime, overlap year, overlap month for all and young
+        - bar chart with lifetime, overlap year, overlap month for both all and young
           - total percentage
       - treatment demand (corrected for population size)
         - clients n
@@ -74,7 +74,7 @@ Data source: [Stats EMCDDA](http://www.emcdda.europa.eu/data/stats2016)<br>
         - for cocaine and amphetamines: purity: %
         - for mdma: potency: mg
         - for herbal cannabis: % THC
-    - topics clickable for trend (prevalence: select lifetime, year or month, both all and young)
-      - current year in different color in bar chart
-    - amount clickable for comparisson to other countries (prevalence: select all or young)
-      - current country in different color in bar chart
+    - topic selectable for comparisson to other countries in bar chart
+      - current country in different color
+    - country clickable for trend in line graph
+      - current year in different color
