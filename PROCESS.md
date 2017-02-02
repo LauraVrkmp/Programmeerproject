@@ -21,7 +21,7 @@ work on CSVtoJSON.py (on single country for all years, first the topic of deaths
 
 ### day 5, 13-01
 
-present idea to peers
+present idea to peers<br>
 work on CSVtoJSON.py (on single country for all years, expand to disease)
 
 ### day 6, 14-01
@@ -127,7 +127,7 @@ index work left for report
 ### day 25, 02-02
 
 update readme.md with challenges hit <br>
-write report <br>
+write report
 
 ### day 26, 03-02
 
