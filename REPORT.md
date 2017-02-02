@@ -39,7 +39,7 @@ There was not enough data available on whether clients for drug treatment had a 
 Lastly, no link was made between the amount of drug seizures per country and its policy on drugs in general. I found the policy of countries hard to quantify, thus it would have required large pieces of accompanying texts to include in the visualization. This would not have done the clarity of storytelling any good.
 
 
-### Improve on current design
+### Improvement on current design
 
 I easily managed to obtain my specified minimal viable product by including all the topics I aimed for, adding interactivity for both menu changes and country selection in the map of Europe. There is however improvement possible on the final product.
 
