@@ -28,9 +28,9 @@ With the given data set, there was no need or time to implement arcs and/or chor
 
 The data set was not fully exploited. In the topic of the prevalence of drug use, there was also data on the younger age group of 15-25 year olds. The bar chart could have been grouped to compare the full population to the younger age group, but I decided not to because it would imply an information overload.
 
-For some of the data topics a correction for population size was aimed for (total overdose deaths, disease notifications, health and social responses, treatment demand and the seizure of drugs). Sometimes the correction would not have made any sense, since the uncorrected data tells you more about a countries policy, such as the amount of drug seizures. Also in other cases, a correction would have been slightly inappropriate, as with the data on total overdose deaths. Here, each individual is of course one too many. Thus, no corrections were applied for now.
-
 The same goes into account for the total drug related deaths. There were numbers available for deaths caused by opiates, by non-opiates and caused by unknown substances, but this bulk of information would have been hardly interpretable and was left out of the data.json all together.
+
+For some of the data topics a correction for population size was aimed for (total overdose deaths, disease notifications, health and social responses, treatment demand and the seizure of drugs). Sometimes the correction would not have made any sense, since the uncorrected data tells you more about a countries policy, such as the amount of drug seizures. Also in other cases, a correction would have been slightly inappropriate, as with the data on total overdose deaths. Here, each individual is of course one too many. Thus, no corrections were applied for now.
 
 Initially I wanted to show the sum of notifications of HIV and AIDS, stacking the bar chart and line graph. The two were, upon rethought, too diverse to compare and processed separately as subtopics.
 
@@ -43,7 +43,7 @@ Lastly, no link was made between the amount of drug seizures per country and its
 
 I easily managed to obtain my specified minimal viable product by including all the topics I aimed for, adding interactivity for both menu changes and country selection in the map of Europe. There is however improvement possible on the final product.
 
-More interactivity would have been possible by updating the map and line graph upon country selection in the bar chart. The same goes for updating map, bar graph and time slider upon year selection in the line graph. Updating the time slider would have added a new element of interactivity, thus both forms of figure updating were left out.
+More interactivity would have been possible by updating the map and line graph upon country selection in the bar chart. The same goes for updating map, bar graph and time slider upon year selection in the line graph. Updating the time slider would have added a completely new element of interactivity, thus both forms of figure updating were left out for now.
 
 In the current bar chart, it is sometimes not very clear for which country data is missing. The data value can also be very low compared to other countries. A more explicit 'unknown', is wished for.
 
@@ -56,4 +56,4 @@ Story telling wise, I did not manage to complement data of different topics as a
 	prevalence of problem drug use (PDU), drug-related infectious diseases (DRID) 
 	and drug-related deaths (DRD).
 	
-I do however, successfully display data trends and differences in between countries. Whether the visualizations manage to carefully depict reality is in my opinion now mostly dependant on the quality of the data source.
+The visualization does however do it's job on insightfully displaying data for each and every topic specifically. Whether the visualization manage to carefully depict reality is in my opinion now mostly dependant on the quality of the data source.
