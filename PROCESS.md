@@ -21,6 +21,7 @@ work on CSVtoJSON.py (on single country for all years, first the topic of deaths
 
 ### day 5, 13-01
 
+present idea to peers
 work on CSVtoJSON.py (on single country for all years, expand to disease)
 
 ### day 6, 14-01
