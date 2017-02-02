@@ -16,7 +16,7 @@ A change of year on the slider (slider.js) will reset the value for year in inde
 
 ### Challenges and changes to the document design
 
-With the bar chart and line graph both a topics trend as is its comparison to other countries for one year specifically is visualized. For each figure a specific response to the menu changes was required. This implementation was successful.
+With the bar chart and line graph both a topics trend as its comparison to other countries for one year specifically is visualized. For each figure a specific response to the menu changes was required. This implementation was successful.
 
 I decided to add these figures to the side of the map of Europe, instead over overlapping the map on country selection, which would have limited the options of responsivity as no different country would then have been selectable before the user returns to the map. Also, displaying the figures all together allows for a more insightful impression of the data.
 
@@ -24,7 +24,7 @@ Instead of loading a page with no data selected yet, I picked a topic, subtopic 
 
 The concern was expressed for communicating the right unit of measurement for each topic. This was resolved by appending an addition to the d3 tip in all three visualizations, and by mentioning it in the accompanying text for topics specifically.
 
-With the given data set, there was no need or time to implement arcs and/or chords in between countries, to indicate drugs origins. The data set as it was complex enough on itself.
+With the given data set, there was no need or time to implement arcs and/or chords in between countries, to indicate drugs origins. The data set as it is was complex enough on itself.
 
 The data set was not fully exploited. In the topic of the prevalence of drug use, there was also data on the younger age group of 15-25 year olds. The bar chart could have been grouped to compare the full population to the younger age group, but I decided not to because it would imply an information overload.
 
